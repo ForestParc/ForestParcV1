@@ -616,6 +616,94 @@ hr
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.groupes{
+    top: 55%;
+    width: 900px;
+    height: 550px;
+    left: 10500px;
+}
+
+.groupes .formule-ado{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 550px;
+}
+
+.groupes .formule-ado2{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 550px;
+}
+
+.groupes .image30{
+    position: absolute;
+    bottom: 15%;
+    left: 24%;
+}
+
+.groupes h3{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.groupes .formule-ado .image31{
+    position: absolute;
+    left: 0;
+}
+
+.groupes .formule-ado .formule-grp1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.groupes .formule-ado .image32{
+    position: absolute;
+    right: 4.5%;
+    top: 12%;
+
+}
+
+.groupes .formule-ado .formule-grp2{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    font-size: 14px;
+}
+
+.groupes .formule-ado2 .image33{
+    position: absolute;
+}
+
+.groupes .formule-ado2 .formule-grp3{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    font-size: 14px;
+    width: 75%;
+}
+
+.groupes .formule-ado2 .image34{
+    position: absolute;
+    top: 12%;
+    left: 3.5%;
+}
+
+.groupes .formule-ado2 .formule-grp4{
+    position: absolute;
+    top: 75.5%;
+    right: 4%;
+    font-size: 14px;
+    width: 75%;
+}
+
 .download
 {
     top: 44%;

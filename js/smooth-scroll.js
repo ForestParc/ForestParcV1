@@ -32,6 +32,17 @@ $('.nav #options-nav').on('click', function(e) {
     location.reload();
 });
 
+$('.nav #groupes-nav').on('click', function(e) {
+    timer = window.setInterval(function() {
+    var scrollTop = $('html, body').scrollTop() + 10800;
+    console.log(scrollTop);
+    $('html, body').animate({'scrollTop': scrollTop}, 3000);
+    }, 30);
+}).on('mouseleave', function(e) {
+    window.clearInterval(timer);
+    location.reload();
+});
+
 $('.nav #contact-nav').on('click', function(e) {
     timer = window.setInterval(function() {
     var scrollTop = $('html, body').scrollTop() + 12000;
