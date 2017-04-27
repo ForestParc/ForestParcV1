@@ -34,7 +34,7 @@ $('.nav #options-nav').on('click', function(e) {
 
 $('.nav #groupes-nav').on('click', function(e) {
     timer = window.setInterval(function() {
-    var scrollTop = $('html, body').scrollTop() + 10800;
+    var scrollTop = $('html, body').scrollTop() + 11100;
     console.log(scrollTop);
     $('html, body').animate({'scrollTop': scrollTop}, 3000);
     }, 30);

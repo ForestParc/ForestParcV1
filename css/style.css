@@ -616,11 +616,43 @@ hr
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.page_img3{
+    position: absolute;
+    top: 20%;
+    left: 10100px;
+    width: 500px;
+    height: 600px;
+}
+
+.page_img3 img{
+    z-index: 503;
+}
+
+.page_img3 .image35{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    right: 85%;
+    bottom: 55%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img3 .image36{
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    right: 8%;
+    bottom: 11%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
 .groupes{
     top: 55%;
     width: 900px;
     height: 550px;
-    left: 10500px;
+    left: 10800px;
 }
 
 .groupes .formule-ado{
@@ -704,12 +736,67 @@ hr
     width: 75%;
 }
 
+.groupes2{
+    top: 55%;
+    width: 380px;
+    height: 550px;
+    left: 11800px;
+}
+
+.groupes2 .formule-ado{
+    position: absolute;
+    left: 0;
+    margin-top: -50px;
+    width: 380px;
+    height: 550px;
+}
+
+.groupes2 .image30{
+    position: absolute;
+    bottom: 30%;
+    right: 0%;
+}
+
+.groupes2 h3{
+    position: absolute;
+    top: 16%;
+    left: 12%;
+    text-align: center;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.groupes2 .formule-ado .image31{
+    position: absolute;
+
+}
+
+.groupes2 .formule-ado .formule-grp1{
+    position: absolute;
+    top: 52%;
+    left: 14%;
+    font-size: 16px;
+}
+
+.groupes2 .formule-ado .image32{
+    position: absolute;
+    top: 18%;
+}
+
+.groupes2 .formule-ado .formule-grp2{
+    position: absolute;
+    top: 83%;
+    left: 13%;
+    font-size: 14px;
+}
+
 .download
 {
     top: 44%;
     width: 400px;
     height: 400px;
-    left: 12000px;
+    left: 14000px;
 }
 
 form{
